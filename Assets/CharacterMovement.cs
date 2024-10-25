@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    private Vector3 moveVec = Vector3.zero; // Reset moveVec at the start of each frame
+    private Vector3 moveVec = Vector3.zero;
     [SerializeField]
     private float moveSpeed;
     private Vector3[] groundEdges;
@@ -11,9 +11,13 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField]
     private GameObject ground;
 
+    private Rigidbody rb;
+
     void Start()
     {
         this.groundEdges = this.GetGroundEdges();
+        rb = GetComponent<Rigidbody>();
+        rb.freezeRotation = true;
     }
 
     Vector3[] GetGroundEdges()
@@ -30,11 +34,10 @@ public class CharacterMovement : MonoBehaviour
         float halfLength = length / 2;
         float halfWidth = width / 2;
 
-        // Calculate the corners based on the ground object's center and dimensions
-        edges[0] = new Vector3(groundXPos - halfWidth, groundYPos, groundZPos - halfLength); // bottom-left corner
-        edges[1] = new Vector3(groundXPos + halfWidth, groundYPos, groundZPos - halfLength); // bottom-right corner
-        edges[2] = new Vector3(groundXPos - halfWidth, groundYPos, groundZPos + halfLength); // top-left corner
-        edges[3] = new Vector3(groundXPos + halfWidth, groundYPos, groundZPos + halfLength); // top-right corner
+        edges[0] = new Vector3(groundXPos - halfWidth, groundYPos, groundZPos - halfLength); 
+        edges[1] = new Vector3(groundXPos + halfWidth, groundYPos, groundZPos - halfLength); 
+        edges[2] = new Vector3(groundXPos - halfWidth, groundYPos, groundZPos + halfLength); 
+        edges[3] = new Vector3(groundXPos + halfWidth, groundYPos, groundZPos + halfLength); 
 
         return edges;
     }
@@ -43,34 +46,34 @@ public class CharacterMovement : MonoBehaviour
     {
         Vector3 newPosition = this.transform.position + direction * Time.deltaTime * moveSpeed;
 
-        // Check x bounds (left and right)
-        if (newPosition.x < this.groundEdges[0].x && direction.x < 0) // Moving left
+        if (newPosition.x < this.groundEdges[0].x) 
         {
             return false;
         }
-        if (newPosition.x > this.groundEdges[1].x && direction.x > 0) // Moving right
-        {
-            return false;
-        }
-
-        // Check z bounds (forward and back)
-        if (newPosition.z < this.groundEdges[0].z && direction.z < 0) // Moving back
-        {
-            return false;
-        }
-        if (newPosition.z > this.groundEdges[2].z && direction.z > 0) // Moving forward
+        if (newPosition.x > this.groundEdges[1].x) 
         {
             return false;
         }
 
-        // If none of the conditions are hit, the movement is valid
+        if (newPosition.z < this.groundEdges[0].z ) 
+        {
+            return false;
+        }
+        if (newPosition.z > this.groundEdges[2].z ) 
+        {
+            return false;
+        }
+
         return true;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Reset moveVec at the beginning of the frame
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+
+        moveVec = new Vector3(moveHorizontal, 0.0f, moveVertical);
+
         moveVec = Vector3.zero;
 
         if (Input.GetKey(KeyCode.W))
@@ -105,7 +108,13 @@ public class CharacterMovement : MonoBehaviour
             }
         }
 
-        // Move the character
+        MovePlayer();
         this.transform.position += moveVec * Time.deltaTime * moveSpeed;
+    }
+
+    void MovePlayer()
+    {
+        // Apply the movement vector to the Rigidbody
+        rb.MovePosition(transform.position + moveVec * moveSpeed * Time.deltaTime);
     }
 }
