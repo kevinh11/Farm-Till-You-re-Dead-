@@ -356,10 +356,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/CameraFollow.cs"
-"Assets/CharacterMovement.cs"
-"Assets/Grow.cs"
-"Assets/PlayerInteract.cs"
+"Assets/Script/CameraFollow.cs"
+"Assets/Script/CharacterMovement.cs"
+"Assets/Script/Grow.cs"
+"Assets/Script/PlayerInteract.cs"
 -langversion:9.0
 /deterministic
 /optimize+
