@@ -28,6 +28,8 @@ public class CharacterMovement : MonoBehaviour
         float groundYPos = ground.transform.position.y;
         float groundZPos = ground.transform.position.z;
 
+
+        Debug.Log(groundXPos);
         float length = ground.GetComponent<MeshRenderer>().bounds.size.z;
         float width = ground.GetComponent<MeshRenderer>().bounds.size.x;
 
@@ -74,10 +76,12 @@ public class CharacterMovement : MonoBehaviour
 
         moveVec = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
+        Debug.Log("test from movement");
         moveVec = Vector3.zero;
 
         if (Input.GetKey(KeyCode.W))
         {
+
             if (CanMoveInDirection(Vector3.forward))
             {
                 moveVec += Vector3.forward;
