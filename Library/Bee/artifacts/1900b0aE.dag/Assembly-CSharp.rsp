@@ -359,6 +359,7 @@
 "Assets/Script/CameraFollow.cs"
 "Assets/Script/CharacterMovement.cs"
 "Assets/Script/Grow.cs"
+"Assets/Script/Pertumbuhan.cs"
 "Assets/Script/PlayerInteract.cs"
 -langversion:9.0
 /deterministic

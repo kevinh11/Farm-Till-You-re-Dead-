@@ -67,6 +67,7 @@
     <Compile Include="Assets\Script\CameraFollow.cs" />
     <Compile Include="Assets\Script\Grow.cs" />
     <Compile Include="Assets\Script\CharacterMovement.cs" />
+    <Compile Include="Assets\Script\Pertumbuhan.cs" />
     <Compile Include="Assets\Script\PlayerInteract.cs" />
   </ItemGroup>
   <ItemGroup>
