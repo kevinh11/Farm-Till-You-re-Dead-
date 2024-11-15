@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,8 +17,22 @@ public class PlayerInventory : MonoBehaviour
     }
 
     private PlayerInteract interactScript;
-
     private List<inventoryItem> cropsList = new List<inventoryItem>();
+
+    public int GetItemQty(string name) 
+    {
+        // int quantity = cropsList.Where(
+        //     crop => crop.name == this.name
+        // ).Length;
+
+        int quantity = 0;
+        foreach (var crop in cropsList)
+        {
+            if (crop.itemName == name) quantity++;
+        }
+
+        return quantity ;
+    }
     
     void Start()
     {
@@ -29,6 +43,8 @@ public class PlayerInventory : MonoBehaviour
 
         
     }
+
+   
 
 
     void ConsumeItem(string itemName)

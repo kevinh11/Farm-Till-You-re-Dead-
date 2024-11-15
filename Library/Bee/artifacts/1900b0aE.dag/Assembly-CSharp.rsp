@@ -365,6 +365,7 @@
 "Assets/Grow.cs"
 "Assets/PlayerInteract.cs"
 "Assets/PlayerInventory.cs"
+"Assets/SlotScript.cs"
 "Assets/testScript.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

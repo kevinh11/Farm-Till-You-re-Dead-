@@ -8,14 +8,23 @@ public class Grow : MonoBehaviour, IInteractable
 
     private bool isGrown = false;
 
+    void Start()
+    {
+        GrowOverTime();
+
+    }
     public void Interact()
     {
-        if (!isGrown)
+        if (isGrown)
         {
             StartCoroutine(GrowOverTime());
         }
     }
 
+    void Harvest()
+    {
+        isGrown = false;
+    }
     private IEnumerator GrowOverTime()
     {
         Debug.Log("is growing..");
