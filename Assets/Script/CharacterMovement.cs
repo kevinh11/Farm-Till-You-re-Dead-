@@ -17,6 +17,8 @@ public class CharacterMovement : MonoBehaviour
     public float ro_speed = 100f;
     private Quaternion initialRotation;
     private Quaternion targetRotation; 
+    private IEnumerator dieproses;
+    public Transform models;
 
     void Start()
     {
@@ -25,7 +27,9 @@ public class CharacterMovement : MonoBehaviour
         rb.freezeRotation = true;
         playerTrans = transform;
         initialRotation = playerTrans.rotation;
-        targetRotation = playerTrans.rotation; 
+        targetRotation = playerTrans.rotation;
+        dieproses = die(2.0f, 2.0f);
+        StartCoroutine(dieproses); 
     }
 
     Vector3[] GetGroundEdges()
@@ -117,5 +121,15 @@ public class CharacterMovement : MonoBehaviour
     void SetTargetRotation(Quaternion rotation)
     {
         targetRotation = rotation;
+    }
+
+    private IEnumerator die(float phase, float seconds){
+        for(int i = 0; i < phase; i++){
+            if(i == phase -1){
+                models.rotation = Quaternion.Euler(0, 0, 90);
+               
+            }
+             yield return new WaitForSeconds(seconds);
+        }
     }
 }

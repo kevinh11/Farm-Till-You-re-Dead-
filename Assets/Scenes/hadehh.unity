@@ -3817,6 +3817,7 @@ MonoBehaviour:
   playerAnim: {fileID: 1937150467}
   playerTrans: {fileID: 1482739173}
   ro_speed: 1015.2
+  models: {fileID: 1937150466}
 --- !u!114 &1482739175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4086,7 +4087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4642437867165026, guid: 5e9156c428161ae4c970c47bfc76b5ca, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4642437867165026, guid: 5e9156c428161ae4c970c47bfc76b5ca, type: 3}
       propertyPath: m_LocalRotation.y
@@ -4094,7 +4095,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4642437867165026, guid: 5e9156c428161ae4c970c47bfc76b5ca, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4642437867165026, guid: 5e9156c428161ae4c970c47bfc76b5ca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4111,7 +4112,7 @@ PrefabInstance:
     - target: {fileID: 95100691128963594, guid: 5e9156c428161ae4c970c47bfc76b5ca, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 053193b3af090de4598253b0f90f9825, type: 2}
+      objectReference: {fileID: 9100000, guid: 7a9fb31b29bee4a4298eac04d8909ab4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
