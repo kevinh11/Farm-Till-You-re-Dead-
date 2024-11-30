@@ -15,7 +15,7 @@ C:/Users/Kevin Hadinata/Documents/UAS_CGA_CLONE/Farm-Till-You-re-Dead-
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51866
+51683
 Successfully changed project path to: C:/Users/Kevin Hadinata/Documents/UAS_CGA_CLONE/Farm-Till-You-re-Dead-
 C:/Users/Kevin Hadinata/Documents/UAS_CGA_CLONE/Farm-Till-You-re-Dead-
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/Kevin Hadinata/Documents/UAS_CGA_CLONE/Farm-Till-You-re-Dead-
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25400]  Target information:
+Player connection [9876]  Target information:
 
-Player connection [25400]  * "[IP] 172.21.77.112 [Port] 0 [Flags] 2 [Guid] 2428179638 [EditorId] 2428179638 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LQ8BQ0EM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9876]  * "[IP] 172.21.205.46 [Port] 0 [Flags] 2 [Guid] 1342213109 [EditorId] 1342213109 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LQ8BQ0EM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25400] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25400] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9876] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9876] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 45.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
@@ -64,57 +64,57 @@ Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x9bc4)
-    Vendor:   Intel
-    VRAM:     4029 MB
-    Driver:   27.20.100.9664
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.6070
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019204 seconds.
-- Loaded All Assemblies, in  0.600 seconds
+Registered in 0.019858 seconds.
+- Loaded All Assemblies, in  0.734 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 448 ms
+Android Extension - Scanning For ADB Devices 385 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.848 seconds
-Domain Reload Profiling: 1446ms
-	BeginReloadAssembly (264ms)
+- Finished resetting the current domain, in  0.813 seconds
+Domain Reload Profiling: 1545ms
+	BeginReloadAssembly (228ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (93ms)
-	LoadAllAssembliesAndSetupDomain (186ms)
-		LoadAssemblies (262ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (221ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
-			TypeCache.Refresh (180ms)
-				TypeCache.ScanAssembly (164ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (326ms)
+				TypeCache.ScanAssembly (303ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (848ms)
+	FinalizeReload (814ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (785ms)
+		SetupLoadedEditorAssemblies (750ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (556ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (491ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (154ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,7 +123,7 @@ Domain Reload Profiling: 1446ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.090 seconds
+- Loaded All Assemblies, in  1.446 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -132,47 +132,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.802 seconds
-Domain Reload Profiling: 1889ms
-	BeginReloadAssembly (208ms)
+- Finished resetting the current domain, in  0.925 seconds
+Domain Reload Profiling: 2365ms
+	BeginReloadAssembly (285ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (772ms)
-		LoadAssemblies (569ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (1025ms)
+		LoadAssemblies (801ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (335ms)
-			TypeCache.Refresh (300ms)
-				TypeCache.ScanAssembly (274ms)
+		AnalyzeDomain (413ms)
+			TypeCache.Refresh (375ms)
+				TypeCache.ScanAssembly (335ms)
 			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (803ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (926ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (591ms)
+		SetupLoadedEditorAssemblies (706ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (447ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (553ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 7.25 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 13.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3521 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (96.6 KB). Loaded Objects now: 3991.
-Memory consumption went from 137.1 MB to 137.0 MB.
-Total: 5.813000 ms (FindLiveObjects: 0.484500 ms CreateObjectMapping: 0.352800 ms MarkObjects: 4.458900 ms  DeleteObjects: 0.515200 ms)
+Unloading 3524 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (120.1 KB). Loaded Objects now: 3994.
+Memory consumption went from 137.2 MB to 137.0 MB.
+Total: 10.906800 ms (FindLiveObjects: 0.588200 ms CreateObjectMapping: 1.855800 ms MarkObjects: 8.125000 ms  DeleteObjects: 0.336000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,74 +190,773 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6663.834539 seconds.
-  path: Assets/Scripts/SlotScript.cs
-  artifactKey: Guid(bcd049692de6e26449ef154a04f4d7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SlotScript.cs using Guid(bcd049692de6e26449ef154a04f4d7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '78c16f962a894974806df19da4c219df') in 0.002351 seconds
+  Time since last request: 19247.025518 seconds.
+  path: Assets/BlockyCustomCharacter/BlockyDemo.controller
+  artifactKey: Guid(f76c63e3e49f0bf4da4bb5a057b1ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/BlockyDemo.controller using Guid(f76c63e3e49f0bf4da4bb5a057b1ceda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ff86a8a2cbfa548d36bdbab2e2c058c2') in 0.036897 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 115
 ========================================================================
 Received Import Request.
-  Time since last request: 0.387281 seconds.
-  path: Assets/Scripts/PlayerInteract.cs
-  artifactKey: Guid(5eb3bc16734e4244f86089a24f653ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerInteract.cs using Guid(5eb3bc16734e4244f86089a24f653ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fd852d1fd205394e6e3e63dda3ab2148') in 0.000498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.034283 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(cb41eca1cc311244993418052c0b39e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(cb41eca1cc311244993418052c0b39e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 74.570021 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/SpawnClothing.mat
+  artifactKey: Guid(86fbeb3634a1d4440b95258351d9c312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/SpawnClothing.mat using Guid(86fbeb3634a1d4440b95258351d9c312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e4da4ce3478b60715a2227ab1c136efc') in 0.144522 seconds
+ -> (artifact id: 'daa048cae876b0b8b43055343c13318c') in 0.120083 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.069226 seconds.
-  path: Assets/Scripts/InventoryUIManager.cs
-  artifactKey: Guid(8f7b61bbdd15614428452c9664ccec70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/InventoryUIManager.cs using Guid(8f7b61bbdd15614428452c9664ccec70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '13e21639300ea9c5ad076178419d0340') in 0.000492 seconds
+  Time since last request: 0.002208 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Material.mat
+  artifactKey: Guid(b0d24125a4dfdab4c9761783651bb38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Material.mat using Guid(b0d24125a4dfdab4c9761783651bb38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '58b5c98111addb1df7f26b5b438335e1') in 0.006633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.028069 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Hair/blondehair.mat
+  artifactKey: Guid(9bdb92291cf9e6a44a7377f22d1ae33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Hair/blondehair.mat using Guid(9bdb92291cf9e6a44a7377f22d1ae33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c094365f0a6b1c917dd40f33304431ca') in 0.006100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015602 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Eyes/DarkElfEyes.mat
+  artifactKey: Guid(b251e3f43cddff0479754fdd21df2789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Eyes/DarkElfEyes.mat using Guid(b251e3f43cddff0479754fdd21df2789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '74ddc0daff65f2d8d20b33a09d1014c6') in 0.006147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005520 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Material_003.mat
+  artifactKey: Guid(1016788ba741ddb41a6b50a4978048d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Material_003.mat using Guid(1016788ba741ddb41a6b50a4978048d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8dc9257d00685200c8d99d278168f36b') in 0.006111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009563 seconds.
+  path: Assets/BlockyCustomCharacter/Materials
+  artifactKey: Guid(dc39d50a0d530034c931c47197059a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials using Guid(dc39d50a0d530034c931c47197059a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '570e00ed4f08382a997870c28a52728f') in 0.000423 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.040706 seconds.
-  path: Assets/Scripts/PlayerInventory.cs
-  artifactKey: Guid(190387f437fb4e34882952642d1f5806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerInventory.cs using Guid(190387f437fb4e34882952642d1f5806) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'aa810ec81baf7acbb27bfa7b1bb2ccd6') in 0.000528 seconds
+  Time since last request: 0.014285 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/tanhorncolor.mat
+  artifactKey: Guid(a5ef18dc9becd8b4c9e2c7f33c4fe136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/tanhorncolor.mat using Guid(a5ef18dc9becd8b4c9e2c7f33c4fe136) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b46972d70a7a790906f26ae13ab122f8') in 0.006857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003130 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/LeatherArmor2.mat
+  artifactKey: Guid(6958467fe3be8f547af951b1dd2c5813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/LeatherArmor2.mat using Guid(6958467fe3be8f547af951b1dd2c5813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '98cef469a22b51e204429efed3fecc7e') in 0.006025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003909 seconds.
+  path: Assets/BlockyCustomCharacter/Prefabs/Spawn.prefab
+  artifactKey: Guid(a50458e6ffc945041a22d30ca59b494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Prefabs/Spawn.prefab using Guid(a50458e6ffc945041a22d30ca59b494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4b5f1d1f26c0c12e9f28f16d0e387c70') in 0.052705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 324
+========================================================================
+Received Import Request.
+  Time since last request: 0.017708 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Material_008.mat
+  artifactKey: Guid(c5b332f7983c9ce4c89c4917247eb2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Material_008.mat using Guid(c5b332f7983c9ce4c89c4917247eb2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '27530d0c4424ee0c29415940b35e7115') in 0.006831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003531 seconds.
+  path: Assets/BlockyCustomCharacter/Prefabs/NormalGuy.controller
+  artifactKey: Guid(053193b3af090de4598253b0f90f9825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Prefabs/NormalGuy.controller using Guid(053193b3af090de4598253b0f90f9825) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5357a15f50c814b26be703df32bcbdaf') in 0.003809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.008748 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/DarkElfShoulders.mat
+  artifactKey: Guid(01ba87649fba24b43bad9abb8c5d1e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/DarkElfShoulders.mat using Guid(01ba87649fba24b43bad9abb8c5d1e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6f404560c15b33af1c6874f42d17d55e') in 0.006103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009565 seconds.
+  path: Assets/BlockyCustomCharacter/Prefabs/Orc.prefab
+  artifactKey: Guid(e95e59b54c478e946b14b2d252ca8899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Prefabs/Orc.prefab using Guid(e95e59b54c478e946b14b2d252ca8899) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a973b6169424264a7b1a5bf4a47cf921') in 0.013572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 0.009101 seconds.
+  path: Assets/Scenes/Crops asset.unity
+  artifactKey: Guid(2d3b4bd1dd084df48883a587956c5ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Crops asset.unity using Guid(2d3b4bd1dd084df48883a587956c5ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2acd68d7b23695eaff098272bc98d21f') in 0.000847 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.256077 seconds.
-  path: Assets/Prefabs/Inventory.prefab
-  artifactKey: Guid(4425cba25f1e5fc48a69156e66045dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Inventory.prefab using Guid(4425cba25f1e5fc48a69156e66045dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c99536be1053b12661244e1b01317a13') in 0.055859 seconds
+  Time since last request: 0.013479 seconds.
+  path: Assets/Script/Pertumbuhan.cs
+  artifactKey: Guid(3b72f62cc06fca74489bd3046a14147d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Pertumbuhan.cs using Guid(3b72f62cc06fca74489bd3046a14147d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '87fe0b0f123e36409bba79b7c9081906') in 0.000510 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 44
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.034602 seconds.
+  Time since last request: 0.020676 seconds.
+  path: Assets/BlockyCustomCharacter/Prefabs/BlockyAnimated2.fbx
+  artifactKey: Guid(37b8346996e5b8941aa96faf364536e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Prefabs/BlockyAnimated2.fbx using Guid(37b8346996e5b8941aa96faf364536e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '74c0d061dde07dd09829af74360eb8a6') in 0.271713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 195
+========================================================================
+Received Import Request.
+  Time since last request: 0.003644 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/Boots.mat
+  artifactKey: Guid(afa1dc06227a582448f3863aa0358c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/Boots.mat using Guid(afa1dc06227a582448f3863aa0358c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd14314a1cd87735a2c4164768d410afc') in 0.006823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006017 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/DarkElfCape.mat
+  artifactKey: Guid(cd5e1fda401ad2847a81b068b8f2d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/DarkElfCape.mat using Guid(cd5e1fda401ad2847a81b068b8f2d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '66bd313e266df55cb34c47152fcf0969') in 0.006573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010820 seconds.
+  path: Assets/BlockyCustomCharacter/DemoAnimationScript.cs
+  artifactKey: Guid(b8b978bb7f298d646adbeeb002238280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/DemoAnimationScript.cs using Guid(b8b978bb7f298d646adbeeb002238280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1824de2ecbf4d1dd766e547b291c5f0a') in 0.000532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002615 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/World/Leafs.mat
+  artifactKey: Guid(ae125564e54d59f40b4cecbc0bacf3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/World/Leafs.mat using Guid(ae125564e54d59f40b4cecbc0bacf3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '17dd8cb3b67e4d44fa93b3cb5ff4f25e') in 0.006319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003208 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Hair/Hair.mat
+  artifactKey: Guid(f166062633abfe34793f9eece77d6f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Hair/Hair.mat using Guid(f166062633abfe34793f9eece77d6f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '97f18db664541fa2f9daa610876d8dd0') in 0.006397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006631 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(b23064edc19ebed4cbb3957c85f588b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(b23064edc19ebed4cbb3957c85f588b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ae3b6e460e95f82dd85ca03d546f7a19') in 0.000599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008509 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Skins
+  artifactKey: Guid(18ed59d8d03eb85438d6f2cf8d2d3b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Skins using Guid(18ed59d8d03eb85438d6f2cf8d2d3b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '697782e1821d02cb516dccf3d130ccf0') in 0.000463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006051 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Eyes
+  artifactKey: Guid(767c5a4acc1524d4b93914f719b23538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Eyes using Guid(767c5a4acc1524d4b93914f719b23538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49e920938d1a3c3abb98f36ea05e72b8') in 0.000454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030588 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/DarkElfBoots.mat
+  artifactKey: Guid(de841d00582e728419f55e0b363e9556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/DarkElfBoots.mat using Guid(de841d00582e728419f55e0b363e9556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bcf371d1ba0c89d18e359e9000d9344e') in 0.006202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003887 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Material_007.mat
+  artifactKey: Guid(0f57bdde65b6f724fbd97685ff9e66c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Material_007.mat using Guid(0f57bdde65b6f724fbd97685ff9e66c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e8a4a4f10765bca8ba17e8500224a771') in 0.006283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009606 seconds.
+  path: Assets/BlockyCustomCharacter/Prefabs/Walk.anim
+  artifactKey: Guid(a08a5819a80528744a35e954789b5498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Prefabs/Walk.anim using Guid(a08a5819a80528744a35e954789b5498) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '900f157b3474e496815829358e698846') in 0.001719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014570 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(5dc1cba5bd013e7429fa5f59f40f8bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(5dc1cba5bd013e7429fa5f59f40f8bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b661e9a96546100af81dd4ff51ac5d06') in 0.045544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 0.029027 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Skins/Skin.mat
+  artifactKey: Guid(d54e54c14664fd64dbd232dfc4fb9403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Skins/Skin.mat using Guid(d54e54c14664fd64dbd232dfc4fb9403) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cc66436311f0ed5d26a0bdc563700e23') in 0.006829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.024733 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Skins/OrcSkin2.mat
+  artifactKey: Guid(6038479fa05731743a4c4f07317a9bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Skins/OrcSkin2.mat using Guid(6038479fa05731743a4c4f07317a9bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '73fe024bc5df4a4564db980f9d946ca8') in 0.006486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002918 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Material_006.mat
+  artifactKey: Guid(3c6771b0326420848a6c88b2d23bbef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Material_006.mat using Guid(3c6771b0326420848a6c88b2d23bbef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '230a9bc835949a6a491b5e602ebf0e5e') in 0.005833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.024650 seconds.
+  path: Assets/Script
+  artifactKey: Guid(50938dcd6402238459905ace7de945e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(50938dcd6402238459905ace7de945e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '63b25520c46f423fd42d605518d9215f') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002641 seconds.
   path: Assets/Scripts/Grow.cs
   artifactKey: Guid(e1bb392f9d033b1438ed7260e21ed776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Grow.cs using Guid(e1bb392f9d033b1438ed7260e21ed776) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f407e40771f4cbc833668bd22c403240') in 0.000541 seconds
+ -> (artifact id: 'f407e40771f4cbc833668bd22c403240') in 0.000420 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.150911 seconds.
-  path: Assets/hadehh.unity
+  Time since last request: 0.005612 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/World/Bark.mat
+  artifactKey: Guid(283a69c9a564ba044a4798bee031e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/World/Bark.mat using Guid(283a69c9a564ba044a4798bee031e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fb60d1c60eee875b5d75ac3999ce2cfa') in 0.006251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007934 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Material_001.mat
+  artifactKey: Guid(4b78e6a4d196b8340b9cf96bba9c4246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Material_001.mat using Guid(4b78e6a4d196b8340b9cf96bba9c4246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '399be4835ebb8a8d52fcbd4c2ba02520') in 0.005813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.017188 seconds.
+  path: Assets/BlockyCustomCharacter/Prefabs/ArmoredKnight.prefab
+  artifactKey: Guid(c10b78d5f9b922d43a266e8a3b0649ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Prefabs/ArmoredKnight.prefab using Guid(c10b78d5f9b922d43a266e8a3b0649ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b2fef9738970db52e2175e45aa54c24e') in 0.021433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Import Request.
+  Time since last request: 0.010068 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/SteelArmor2.mat
+  artifactKey: Guid(2bd9c6812a57eb748bd6cf4420318ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/SteelArmor2.mat using Guid(2bd9c6812a57eb748bd6cf4420318ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c2623f9809393f818924ff9a9942ec6b') in 0.006412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008731 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/unnamed.mat
+  artifactKey: Guid(14c1b985018edc043bc6719e055a03ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/unnamed.mat using Guid(14c1b985018edc043bc6719e055a03ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ff514f12e3666412f10dfcaa4fcefed3') in 0.006402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014487 seconds.
+  path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hadehh.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ba137ba8f55cc75d9701ac1f0a53eb70') in 0.000632 seconds
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd61961b5c322da93470f273067c73552') in 0.000459 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001855 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/World
+  artifactKey: Guid(7d0f3da195258dc4ba30fe638a210b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/World using Guid(7d0f3da195258dc4ba30fe638a210b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9786be87aaeaef345a89f7d24d44137e') in 0.000347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005197 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/World/Grass.mat
+  artifactKey: Guid(8075147dd4197dd428afae4343b021c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/World/Grass.mat using Guid(8075147dd4197dd428afae4343b021c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '67248a843257854c8de8bd9fb6efaf2f') in 0.006092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.026474 seconds.
+  path: Assets/hadehh.unity
+  artifactKey: Guid(978426de469f79641a73d198b10b37cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hadehh.unity using Guid(978426de469f79641a73d198b10b37cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8f88fcc1011bc8da2ba2a2c4364d9b01') in 0.000534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055025 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing
+  artifactKey: Guid(cca255390ba2999479747f2733eb6af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing using Guid(cca255390ba2999479747f2733eb6af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5aa012cbafe1712b60bbd6d21f1e7061') in 0.000478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022124 seconds.
+  path: Assets/Script/Player.cs
+  artifactKey: Guid(82f6868c4073d554981325cbedf16606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Player.cs using Guid(82f6868c4073d554981325cbedf16606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8ff1f15aa52b8c0be5aabcdf22a6c7a6') in 0.000449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029732 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Material_004.mat
+  artifactKey: Guid(1ffbb87c1e37aee43a7f67f3c43c43a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Material_004.mat using Guid(1ffbb87c1e37aee43a7f67f3c43c43a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0762ff7eb662bee797c9123908acabb3') in 0.005728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005488 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Material_012.mat
+  artifactKey: Guid(020abfcedf3d0b14a950a76720f0f278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Material_012.mat using Guid(020abfcedf3d0b14a950a76720f0f278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0225e122f6c53c3916fec9fb64ef9d10') in 0.006280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003106 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Material_011.mat
+  artifactKey: Guid(bf5fb62a440508947a64b60525361e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Material_011.mat using Guid(bf5fb62a440508947a64b60525361e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5c667742cb187d8e5f2f16d6124ae2bb') in 0.006095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.016345 seconds.
+  path: Assets/Scenes/Pertumbuhan.unity
+  artifactKey: Guid(e8e8b2069793b694e9a10d6db7fc97d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pertumbuhan.unity using Guid(e8e8b2069793b694e9a10d6db7fc97d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1f142404f5c1f56065b5271c9669ffc5') in 0.000468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021476 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Eyes/RedishEyes.mat
+  artifactKey: Guid(2aa687a3e6d36d743ae8c6d5ef920b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Eyes/RedishEyes.mat using Guid(2aa687a3e6d36d743ae8c6d5ef920b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '01e628d2460e5576897dcb5d97c5f03b') in 0.006541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.022359 seconds.
+  path: Assets/BlockyCustomCharacter/Prefabs/NormalGuy.prefab
+  artifactKey: Guid(5e9156c428161ae4c970c47bfc76b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Prefabs/NormalGuy.prefab using Guid(5e9156c428161ae4c970c47bfc76b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1d852c6d4119d62fd0673cdfd148209e') in 0.013685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 0.007975 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Skins/OrcSkin.mat
+  artifactKey: Guid(19bf1357826921343be2f18e3458056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Skins/OrcSkin.mat using Guid(19bf1357826921343be2f18e3458056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5bc6c1c3e2ec6ca9b27c116a9b62d189') in 0.006782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003245 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Skins/SpawnSkin.mat
+  artifactKey: Guid(df1f1b88e86aa5443a6a12b5cb02960a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Skins/SpawnSkin.mat using Guid(df1f1b88e86aa5443a6a12b5cb02960a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '21459e9ae2c9dcf0a458d3b57aac17ab') in 0.006264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.039447 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/No Name.mat
+  artifactKey: Guid(ffd26f1e1fb21db48bcaf2dd616bb6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/No Name.mat using Guid(ffd26f1e1fb21db48bcaf2dd616bb6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a640f43c2896b4317660bda336bcbaa2') in 0.006444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003107 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/White.mat
+  artifactKey: Guid(cdaacfe07290ff44db6755696bb6d1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/White.mat using Guid(cdaacfe07290ff44db6755696bb6d1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5b99aa1eb4a3d6e097584d6002c8be8b') in 0.006114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.017644 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Material_014.mat
+  artifactKey: Guid(73664250a21c4034b90b362db4761e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Material_014.mat using Guid(73664250a21c4034b90b362db4761e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f15683d697b04503b7741d460355ab9f') in 0.007003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014920 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/SteelArmor.mat
+  artifactKey: Guid(b2589439d2780234093c867815b4ba39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/SteelArmor.mat using Guid(b2589439d2780234093c867815b4ba39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9424476da5f0884564b1f292646d3939') in 0.006253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.033080 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/BrightRed.mat
+  artifactKey: Guid(1e8a5a33358913c4d841bb5bb55a6c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/BrightRed.mat using Guid(1e8a5a33358913c4d841bb5bb55a6c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'caf92f37ee50fde1d354eb6c8e39b69c') in 0.006765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.043616 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/LeatherArmor.mat
+  artifactKey: Guid(d6b94fb29788c5f468e42a0172724cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/LeatherArmor.mat using Guid(d6b94fb29788c5f468e42a0172724cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e47be33b81c56e91829c48f14409d9f8') in 0.006355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.054985 seconds.
+  path: Assets/BlockyCustomCharacter
+  artifactKey: Guid(f2cfb9f497270e24c96a91807b014153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter using Guid(f2cfb9f497270e24c96a91807b014153) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '131334560331276be20cd927dd181700') in 0.000474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014760 seconds.
+  path: Assets/BlockyCustomCharacter/Prefabs/idle1.anim
+  artifactKey: Guid(920c060b310f97c43a804585eeb530f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Prefabs/idle1.anim using Guid(920c060b310f97c43a804585eeb530f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '56fda2a2d17258c43c9caa24210195fb') in 0.001868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.059711 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Material_005.mat
+  artifactKey: Guid(a7d4ded94df00c048877272ae31cdf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Material_005.mat using Guid(a7d4ded94df00c048877272ae31cdf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '33eed9f2dce691690a13c34b3140e990') in 0.017473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.033962 seconds.
+  path: Assets/BlockyCustomCharacter/DemoScene.unity
+  artifactKey: Guid(55701691c37f3bd4fa0eb044886425c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/DemoScene.unity using Guid(55701691c37f3bd4fa0eb044886425c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5fa80ee57793fd28980ad4d264827b24') in 0.001156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.068622 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/Shirt.mat
+  artifactKey: Guid(47a0a3bbc11361b4ab9c399c87f06456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/Shirt.mat using Guid(47a0a3bbc11361b4ab9c399c87f06456) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '56bd516e18fe8aea95990a0c60141345') in 0.006521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021050 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/DarkElfClothing.mat
+  artifactKey: Guid(9f77822362ff11243be041ff406f3001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/DarkElfClothing.mat using Guid(9f77822362ff11243be041ff406f3001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1801c02ac5728acd99ec3c7f5ad71fee') in 0.006595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010626 seconds.
+  path: Assets/Scripts/CharacterMovement.cs
+  artifactKey: Guid(ffa76ec64458d3c4894c1e372e6a95af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterMovement.cs using Guid(ffa76ec64458d3c4894c1e372e6a95af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4e3586b2a31bf511288adb1f112295c9') in 0.000579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013177 seconds.
+  path: Assets/BlockyCustomCharacter/Prefabs/DarkElf.prefab
+  artifactKey: Guid(f312195932f050340bc5333384060405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Prefabs/DarkElf.prefab using Guid(f312195932f050340bc5333384060405) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '57f342ae790a0df1301ae45c52903fbc') in 0.019869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 163
+========================================================================
+Received Import Request.
+  Time since last request: 0.016819 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Hair
+  artifactKey: Guid(ea59655c3025f9e48a69517008d009ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Hair using Guid(ea59655c3025f9e48a69517008d009ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '24f2af1514e57c368f6c7114a64fa13f') in 0.000724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003216 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Clothing/Pants.mat
+  artifactKey: Guid(7fa6021f4ce661e4d933fa340f4a5749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Clothing/Pants.mat using Guid(7fa6021f4ce661e4d933fa340f4a5749) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd443255e2279884dceeb1e0c01e9026d') in 0.006436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014255 seconds.
+  path: Assets/BlockyCustomCharacter/Prefabs/Attack1.anim
+  artifactKey: Guid(8d96e14386531d54ab7d8723f62e9c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Prefabs/Attack1.anim using Guid(8d96e14386531d54ab7d8723f62e9c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fe9d7d38128714807afa78af2647bd59') in 0.001668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.013351 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Material_009.mat
+  artifactKey: Guid(732af41e29f6a3d4d9430e49987fa923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Material_009.mat using Guid(732af41e29f6a3d4d9430e49987fa923) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ab0ac28316c8906058829f719628e38e') in 0.012257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.020011 seconds.
+  path: Assets/BlockyCustomCharacter/Prefabs
+  artifactKey: Guid(5c1dac7838bb1b245bf2896b44d34ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Prefabs using Guid(5c1dac7838bb1b245bf2896b44d34ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8de2a00413250cd25df00ceea180cc8e') in 0.001687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013358 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Skins/ElfSkin.mat
+  artifactKey: Guid(ef1fb9a36fdc44e43a7b47e0198b2cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Skins/ElfSkin.mat using Guid(ef1fb9a36fdc44e43a7b47e0198b2cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '24318bd7554e6602c84e5b1f8c34bfc2') in 0.014191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010625 seconds.
+  path: Assets/BlockyCustomCharacter/Materials/Hair/DarkElfHair.mat
+  artifactKey: Guid(5d50c8e1de2dff64a8b71941cf755802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockyCustomCharacter/Materials/Hair/DarkElfHair.mat using Guid(5d50c8e1de2dff64a8b71941cf755802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b2815bc53734d6c69a540a1eb7a8f7ee') in 0.007593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
