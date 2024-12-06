@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/hadehh.unity
+- path: Assets/Scenes/Ui menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
