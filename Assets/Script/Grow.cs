@@ -4,40 +4,32 @@ using UnityEngine;
 
 public class Grow : MonoBehaviour, IInteractable
 {
-    public GameObject dirt;
-    public GameObject mediumPlant;
-    public GameObject bigPlant;
+    public float growthTime;
+
+    private bool isGrown = false;
 
     void Start()
     {
-        // Ensure initial state
-        dirt.SetActive(true);
-        mediumPlant.SetActive(false);
-        bigPlant.SetActive(false);
-    }
+        GrowOverTime();
 
+    }
     public void Interact()
     {
-        StartCoroutine(GrowSequence());
+        if (isGrown)
+        {
+            StartCoroutine(GrowOverTime());
+        }
     }
 
-    private IEnumerator GrowSequence()
+    void Harvest()
+    {
+        isGrown = false;
+    }
+    private IEnumerator GrowOverTime()
     {
         Debug.Log("is growing..");
-
-        // Show medium plant
-        dirt.SetActive(false);
-        mediumPlant.SetActive(true);
-        yield return new WaitForSeconds(1f);
-
-        // Show big plant
-        mediumPlant.SetActive(false);
-        bigPlant.SetActive(true);
-        yield return new WaitForSeconds(1f);
-
-        // Revert back to dirt
-        bigPlant.SetActive(false);
-        dirt.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(growthTime);
+        isGrown = true;
+        Debug.Log("Growth complete!");
     }
 }
